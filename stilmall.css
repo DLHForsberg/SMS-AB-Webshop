@@ -1,0 +1,349 @@
+
+
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+    height: 100%;
+}
+.header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+	
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color:#cc66cc;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu ul li ul li:hover {
+    background-color:#8c8c8c;
+    
+}
+
+.menu ul li:hover > ul
+{
+	display:block;
+	
+	
+}
+
+.menu ul li ul
+{
+	display:none;
+	position:realtive;
+	top:100%;
+	left:0;
+	background:#cc66cc;
+	padding:10px;
+}
+
+.menu li a:hover{
+background-color:#8c8c8c;
+}
+
+.produktbox 
+{
+    padding: 1px;
+    border: 2px solid black;
+    margin: 5px;
+	text-align: center;
+	
+	
+}
+
+table
+{
+    padding: 25px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.kundkorg-pris{
+	padding:5px;
+	border: 1px solid black;
+	width:60%;
+}
+
+}
+
+.aside {
+margin: auto;
+    background-color: #cc66cc;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    color: #ffffff;
+    background-color: #cc66cc;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    position: relative;
+    bottom:0;
+   
+   
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+
+
+
+.up
+{ 
+ float: right;
+ width: 75em;
+ height: 0.625em;
+
+
+
+}
+
+
+.nav_up a
+{
+	list-style:none;
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0;	
+
+	display:block;
+	color: #000000;
+	text-decoration:none;
+	font-weight:700;
+	font-size:0.750em;
+	line-height:1.250em;
+	padding:0.563em;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.nav_up a:hover{
+text-decoration: underline ;
+}
+
+/* ................... Search box ........................... */
+
+form{
+	width:20em;
+	margin:0 auto;
+	float: right;
+	
+}
+.search { 
+	
+	margin:0.5em; 
+	background:white; 
+	width: 15em;
+	height: 2em;
+	float: right;
+}
+
+a {
+	text-decoration:none;
+	color:#cc66cc;
+}
+
+
+
+.pass{
+
+color:blue;	
+	
+}
+
+
+
+.reg {
+	
+	background-color: none;
+	
+}
+
+
+
+
+
+
+
+
+/* ------------------KONTAKTFORMULÄR--------------- */ 
+label {display: block; margin-top: 20px; letter-spacing: 2px;}
+
+
+
+input, textarea, file {
+	width: 290px;
+	background-color: #efefef;
+	border-radius: 10px;
+	border: 1px solid #dedede;
+	padding: 6px;
+	margin-top: 3px;
+	font-size: 14px;
+	color: #3a3a3a;
+}
+input:focus, textarea:focus {border: 1px solid #97d6eb;}
+	
+textarea {height: 228px; background-color: #efefef;}
+
+#submit {width: 100px; height: 40px; text-align: center; border: none; margin-top: 20px; cursor: pointer;}
+#submit:hover {color: #fff; background-color: #de0083;opacity: 0.9;}
+
+
+
+/* ------------------------------------------- Slideshow ------------------------------------------ */
+.slideshow {
+
+
+
+background: white ;
+  height:250px;
+  max-width: 100%
+ 	
+   
+ }
+.fadein { 
+    position:relative; 
+    background: url("slideshow-bg.png") repeat-x scroll left top transparent}
+  .fadein img {position:absolute;height:auto; width: 100%; max-height: 250px;   }
+  
+  
+  
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearence: button;
+
+    text-decoration: none;
+    color: #00FF00;
+    
+}
+.betalning {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 73px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.betalning:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.betalning:active {
+	position:relative;
+	top:1px;
+}
+a.tabort {
+	font-color:black;
+}
+.tabort:hover {
+	color:black;
+}
+.tabort:active {
+	
+}
+
+  
+.align-left{
+	float: left;
+	width:100%;
+	margin:0% 10% 0% 0%;
+}
+
+.laggtill{
+	color:white;
+	background-color:#cc66cc;
+}
+
+.kundalignleft{
+	float:left;
+}
+     
+a.menylank{
+	color:white;
+}
+
+.totalsum{
+	float:right;
+	width:75%;
+}
